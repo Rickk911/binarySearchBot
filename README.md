@@ -31,12 +31,12 @@
 
 3. Compile the code:
    ```bash
-   g++ main.cpp -o mainGame
+   g++ main.cpp -o main
    ```
 
 4. Run the program:
    ```bash
-   ./mainGame
+   ./main
    ```
 
 ### 🪟 On Windows (with MinGW):
@@ -53,12 +53,12 @@
 
 4. Compile the code:
    ```bash
-   g++ main.cpp -o mainGame.exe
+   g++ main.cpp -o main.exe
    ```
 
 5. Run the program:
    ```bash
-   mainGame.exe
+   main.exe
    ```
 
 ## 🤖 How It Works
