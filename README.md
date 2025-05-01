@@ -3,9 +3,9 @@
 ## 🚀 Features
 
 - Random number generation between 0 and 1.000.000.(you can control that.)
-- Bot uses binary search to guess the number.
-- Feedback after each guess (too high, too low).
-- A delay between guesses to simulate the bot thinking.
+- Bot uses binary search to main the number.
+- Feedback after each main (too high, too low).
+- A delay between maines to simulate the bot thinking.
 
 ## 🧑‍💻 Technologies Used
 
@@ -31,12 +31,12 @@
 
 3. Compile the code:
    ```bash
-   g++ guess.cpp -o guessGame
+   g++ main.cpp -o mainGame
    ```
 
 4. Run the program:
    ```bash
-   ./guessGame
+   ./mainGame
    ```
 
 ### 🪟 On Windows (with MinGW):
@@ -53,16 +53,16 @@
 
 4. Compile the code:
    ```bash
-   g++ guess.cpp -o guessGame.exe
+   g++ main.cpp -o mainGame.exe
    ```
 
 5. Run the program:
    ```bash
-   guessGame.exe
+   mainGame.exe
    ```
 
 ## 🤖 How It Works
 
-- The bot guesses a number within the range from 0 to 1.000.000.
-- The bot will adjust its guess based on whether the guessed number is too high or too low compared to the secret number.
+- The bot maines a number within the range from 0 to 1.000.000.
+- The bot will adjust its main based on whether the mained number is too high or too low compared to the secret number.
 - The program uses a binary search algorithm to efficiently find the secret number.
